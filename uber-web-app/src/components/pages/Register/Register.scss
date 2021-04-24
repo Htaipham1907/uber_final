@@ -1,0 +1,9 @@
+.register-body{
+    background: url('../../../resource/images/body-bg.jpeg');
+    height: 100vh;
+    background-size: cover;
+    display:flex;
+    :nth-child(1){
+        margin: auto;
+    }
+}

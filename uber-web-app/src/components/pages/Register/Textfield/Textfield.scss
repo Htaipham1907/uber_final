@@ -1,0 +1,24 @@
+@import '../../../../resource/css/variable.scss';
+
+.text-field-control{
+    max-width: fit-content;
+    background:white;
+    padding: 10px;
+    margin: 40px auto 20px auto !important;
+    box-shadow: 1px 1px 5px gray;
+    input{
+        border: none;
+        outline:none;
+        font-size: 16px;
+        font-family: $primary-font;
+        margin-left: 15px;
+    }
+}
+
+.error{
+    color:red;
+    font-size:13px;
+    margin: 0 auto;
+    width:fit-content;
+    margin-bottom: 5px;
+}
