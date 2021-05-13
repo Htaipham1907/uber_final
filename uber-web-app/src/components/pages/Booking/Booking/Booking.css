@@ -1,0 +1,82 @@
+.Map {
+  position: relative;
+  height: 100vh;
+  z-index: 0;
+}
+
+.leaflet-touch .leaflet-geosearch-bar form input {
+  height: 60px;
+}
+
+.leaflet-control-geosearch form input {
+  padding-left: 30px;
+}
+
+.leaflet-control-geosearch .results > * {
+  background: url(../../../../resource/images/icons8-place-marker-16.png)
+    no-repeat 0px 0px;
+  background-position: left;
+  padding-left: 30px;
+  padding-top: 16px;
+  height: 60px;
+  z-index: 1;
+}
+.leaflet-geosearch-bar form {
+  width: 500px;
+  position: relative;
+  top: 60px;
+  left: 60px;
+  display: block;
+  border-radius: 4px;
+  z-index: 99999;
+}
+
+/* .AddInput {
+  width: 40%;
+  position: relative;
+}
+.AddInput input {
+  height: 50px;
+  background-color: RGB(252, 253, 253);
+}
+.InputField {
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 1000;
+  width: 30%;
+  opacity: 0.9;
+}
+.InputField i {
+  font-size: 25px;
+}
+.InputField span {
+  font-size: 16px;
+}
+.InputField button {
+  padding: 10px;
+  font-size: 12px;
+  background-color: RGB(250, 255, 246);
+  height: 80px;
+  width: 100%;
+  border: none;
+}
+.SelectBtn {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.SelectBtn p {
+  opacity: 0.6;
+}
+.SelectBtn div {
+  margin-right: 20px;
+}
+.SelectBtn div {
+  margin-right: 20px;
+}
+.TitleBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */

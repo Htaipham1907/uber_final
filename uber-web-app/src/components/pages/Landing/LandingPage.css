@@ -1,0 +1,35 @@
+#main-index {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+    padding: 60px;
+    min-height: calc(100vh - 46px);
+}
+#index-bg {
+    width: 100%;
+    height: 40%;
+}
+.index-intro {
+    margin: auto;
+    width: 40%;
+    height: 35%;
+    display: flexbox;
+}
+.index-intro h1 {
+    font-weight: normal;
+}
+.index-intro button {
+    margin-top: 50px;
+    display: flexbox;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.index-intro button i {
+    padding-left: 20px;
+    font-size: 20px;
+}
